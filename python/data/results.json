@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-11-19T13:50:19Z",
+  "worker_limit": 8,
+  "sequential_duration_sec": 13.1023,
+  "concurrent_duration_sec": 2.0121,
+  "results": [
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "intranet",
+      "ip_address": "127.0.0.1",
+      "service": "http",
+      "port": 8080,
+      "critical": "yes",
+      "state": "OPEN",
+      "response_time_ms": 1.1,
+      "error": ""
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "warehouse-app",
+      "ip_address": "127.0.0.1",
+      "service": "wms",
+      "port": 9000,
+      "critical": "yes",
+      "state": "OPEN",
+      "response_time_ms": 0.83,
+      "error": ""
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "fileserver",
+      "ip_address": "127.0.0.1",
+      "service": "http",
+      "port": 8081,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1005.43,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "closed-port-box",
+      "ip_address": "127.0.0.1",
+      "service": "http",
+      "port": 59999,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.63,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "lan-node-a",
+      "ip_address": "192.168.8.131",
+      "service": "http",
+      "port": 8082,
+      "critical": "yes",
+      "state": "OPEN",
+      "response_time_ms": 0.93,
+      "error": ""
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "lan-node-b",
+      "ip_address": "192.168.8.131",
+      "service": "api",
+      "port": 8083,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.0,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "lab-target",
+      "ip_address": "192.168.8.131",
+      "service": "http",
+      "port": 8080,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1003.88,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "blackhole-gw",
+      "ip_address": "192.0.2.1",
+      "service": "http",
+      "port": 8080,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1003.74,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "app-node-1",
+      "ip_address": "127.0.0.1",
+      "service": "http",
+      "port": 8084,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1003.75,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "app-node-2",
+      "ip_address": "127.0.0.1",
+      "service": "api",
+      "port": 8085,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1003.75,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:17Z",
+      "hostname": "db-cache-1",
+      "ip_address": "127.0.0.1",
+      "service": "redis",
+      "port": 16379,
+      "critical": "yes",
+      "state": "CLOSED",
+      "response_time_ms": 1003.08,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:18Z",
+      "hostname": "queue-worker-1",
+      "ip_address": "127.0.0.1",
+      "service": "wms",
+      "port": 9001,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.98,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:18Z",
+      "hostname": "edge-proxy-1",
+      "ip_address": "127.0.0.1",
+      "service": "http",
+      "port": 8086,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.6,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:18Z",
+      "hostname": "storage-node-1",
+      "ip_address": "192.168.8.131",
+      "service": "http",
+      "port": 8087,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.61,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:18Z",
+      "hostname": "telemetry-1",
+      "ip_address": "192.168.8.131",
+      "service": "api",
+      "port": 8088,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.52,
+      "error": "timeout"
+    },
+    {
+      "timestamp": "2026-11-19T13:50:18Z",
+      "hostname": "sinkhole-2",
+      "ip_address": "192.0.2.2",
+      "service": "http",
+      "port": 8089,
+      "critical": "no",
+      "state": "CLOSED",
+      "response_time_ms": 1004.08,
+      "error": "timeout"
+    }
+  ]
+}

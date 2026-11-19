@@ -1,0 +1,17 @@
+hostname,ip_address,service,port,critical
+intranet,127.0.0.1,http,8080,yes
+warehouse-app,127.0.0.1,wms,9000,yes
+fileserver,127.0.0.1,http,8081,no
+closed-port-box,127.0.0.1,http,59999,no
+lan-node-a,192.168.8.131,http,8082,yes
+lan-node-b,192.168.8.131,api,8083,no
+lab-target,192.168.8.131,http,8080,no
+blackhole-gw,192.0.2.1,http,8080,no
+app-node-1,127.0.0.1,http,8084,no
+app-node-2,127.0.0.1,api,8085,no
+db-cache-1,127.0.0.1,redis,16379,yes
+queue-worker-1,127.0.0.1,wms,9001,no
+edge-proxy-1,127.0.0.1,http,8086,no
+storage-node-1,192.168.8.131,http,8087,no
+telemetry-1,192.168.8.131,api,8088,no
+sinkhole-2,192.0.2.2,http,8089,no

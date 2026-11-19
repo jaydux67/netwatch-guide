@@ -1,0 +1,5 @@
+logs/*.log
+archive/*.tar.gz
+__pycache__/
+*.pyc
+.pytest_cache/

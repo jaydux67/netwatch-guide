@@ -1,0 +1,12 @@
+NetWatch Status Report
+Generated At: 2026-11-19T13:08:19Z
+Total: 8 | OPEN: 3 | CLOSED: 5
+----------------------------------------------------------------
+intranet           127.0.0.1       http   8080  OPEN   rtt=0.97 err=
+warehouse-app      127.0.0.1       wms    9000  OPEN   rtt=0.71 err=
+fileserver         127.0.0.1       http   8081  CLOSED rtt=1012.26 err=timeout
+closed-port-box    127.0.0.1       http   59999 CLOSED rtt=1012.0 err=timeout
+lan-node-a         192.168.8.131   http   8082  OPEN   rtt=0.59 err=
+lan-node-b         192.168.8.131   api    8083  CLOSED rtt=1011.57 err=timeout
+lab-target         192.168.8.131   http   8080  CLOSED rtt=1010.92 err=timeout
+blackhole-gw       192.0.2.1       http   8080  CLOSED rtt=1000.6 err=timeout

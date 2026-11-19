@@ -1,0 +1,17 @@
+section,key,metric1,metric2,metric3
+overall,total_checks,48,,
+status,DOWN,48,,
+host,lan-node-a,0,6,0.0
+host,warehouse-app,0,6,0.0
+host,lan-node-b,0,6,0.0
+host,fileserver,0,6,0.0
+host,intranet,0,6,0.0
+host,blackhole-gw,0,6,0.0
+host,lab-target,0,6,0.0
+host,closed-port-box,0,6,0.0
+top_failing_service,http,36,,
+top_failing_service,api,6,,
+top_failing_service,wms,6,,
+checks_per_hour,2026-11-19T12,16,,
+checks_per_hour,2026-11-19T13,32,,
+part_b,records,8,,

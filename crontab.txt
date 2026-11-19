@@ -1,0 +1,2 @@
+# NetWatch scheduled unattended run (every 5 minutes for verification; adjust as needed)
+*/5 * * * * cd /e/npd-26-1-gNN && /usr/bin/env bash shell/netwatch.sh -i config/inventory.csv -o reports -t 2 -w 95 >> logs/cron_netwatch.log 2>&1
